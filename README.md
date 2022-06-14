@@ -1,4 +1,4 @@
-# Projet-Syst-mes-Distribu-s
+# Projet-Systèmes-Distribués
 Projet:un système distribué basé sur les micro-services permettant de gérer les factures  des clients.
 
 Les microservices désignent à la fois une architecture et une approche de développement logiciel qui consiste à décomposer les applications en éléments les plus simples, indépendants les uns des autres. 
