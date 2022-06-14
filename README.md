@@ -100,6 +100,57 @@ Les micro-services apres en utillisant Eureka:
                 
                 
                 
+![image](https://user-images.githubusercontent.com/97621443/173692962-985213b4-7a1e-4146-8cc0-acabb9f90eff.png)
+
+
+en utilisant OpenFeign pour afficher plus de détails :
+
+
+![image](https://user-images.githubusercontent.com/97621443/173693305-4da4ff8c-2da1-4606-9bfc-2ae73866b386.png)
+
+
+ Partie Kafka:
+ 
+                Mettre en place le Broker KAFKA:
+                
+ ![image](https://user-images.githubusercontent.com/97621443/173695384-076ac1ca-a1d0-4b0b-8de9-a4c0c1d3fbb9.png)
+            
+                un micro-service Spring Boot qui permet de simuler un Producer KAFKA qui 
+permet d’envoyer à un tompic « FACTURATION » à chaque seconde un message 
+contenant le numéro de la facture, le nom du client et le montant de la facture:
+
+![image](https://user-images.githubusercontent.com/97621443/173695605-7dc86593-8722-4e2b-a707-0527c6df12ed.png)
+
+
+
+
+
+            Total des factures :
+            
+![image](https://user-images.githubusercontent.com/97621443/173694829-9e12c849-2e20-4812-9870-f27938ad92d1.png)
+
+        
+             Le total des factures de chaque client:
+
+![image](https://user-images.githubusercontent.com/97621443/173696037-d9b7ac26-fd31-4952-ba99-bb4827280ec0.png)
+
+
+Conclusion:
+
+        Les applications sont généralement créées de manière monolithique. Autrement dit, tous les éléments de l'application qui peuvent être déployés résident dans cette seule application. L'inconvénient, c'est que plus celle-ci est volumineuse, plus il devient difficile de l'enrichir de fonctions et de traiter rapidement les problèmes qui surviennent. Avec une approche basée sur des microservices, il est possible de résoudre ces problèmes, d'améliorer le développement et de gagner en réactivité.
+
+                          
+             
+             
+
+
+             
+
+                
+ 
+                
+                
+                
 
 
 
